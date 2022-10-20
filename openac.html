@@ -1,0 +1,79 @@
+<html>
+    <head>
+     <style>
+        P1{
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+    h4{
+      font-size: 19px;
+      font-family: sans-serif;
+      padding: 20px 0;
+    }
+    a{
+      padding:5px;
+      color:black;
+      text-decoration: none;
+    }
+    a:hover,a:active{
+      background-color: brown;
+      transition: all 0.8s;
+    }
+    .box{
+      padding: 10px;
+    }
+    form{
+         margin-left: 500px;
+    }
+    .boox{
+        padding-right: 50px;
+    }
+    .b1{
+        padding-right: 70px;
+    }
+    body{
+      background-color:#bdb9a7;
+      color:black;
+    }
+     </style>
+</head>
+<body>
+<img src="https://i.postimg.cc/nc5smFFw/bank-poster.png"
+width="1000"
+height="150"/>
+  <table>
+    <TR>
+    <TH><h3><b><a href="https//www.google.com"=_blank>Dashboard |</a></b></h3></TH>
+    <TH><h3><b><a href="https//www.google.com"=_blank>Open A/C |</a></b></h3></TH>
+    <TH><h3><b><a href="https//www.google.com"=_blank>Loan |</a></b></h3></TH>
+    <TH><h3><b><a href="https//www.google.com"=_blank>Deposit |</a></b></h3></TH>
+    </TR>
+    </table>
+  <div><form action="saving_account.php" method="post">
+    <p><h1><left padding=10px>Account Opening</left></h1></p>
+    <div>
+    <label for="firstname">Customer Name </label>
+    <input type="text" id="firstname" name="firstname" 
+    required/>
+    <br/>
+    </div>
+
+    <div>
+    <label class="boox" for="address">Address </label>
+    <input type="text-area" id="address" name="address"/>
+    <br/>
+    </div>
+
+    <div>
+    <label class="b1" for="city">City</label>
+    <input type="text"  id="city" name="city"/>
+    <br/><br/>
+    </div>
+    <input type="submit" value="submit"/>
+    <!-- <input type="reset" value="Reset"/> -->
+    </form>
+  </div>
+</body>
+
+</html>
